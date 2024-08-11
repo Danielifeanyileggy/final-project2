@@ -1,0 +1,690 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+}
+.head{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.head b{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 213, 213);
+    color: black;
+    font-size: 15px;
+    font-weight: 500px;
+}
+.head nav{
+    width: 100%;
+    height: 40px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+.head nav a{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 1s;
+}
+.head nav a:hover{
+    transform: scale(1.2);
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first{
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+.first nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    gap: 15px;
+}
+.first nav p{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.first nav img{
+    width: 150px;
+    height: 210px;
+    object-fit: cover;
+}
+.first div{
+    width:30% ;
+    height: 100%;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.first div img{
+    width: 150px;
+    height: 70px;
+    object-fit: contain;
+}
+.first div b{
+    letter-spacing: 0.5px;
+}
+.first div small{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 136, 0);
+}
+.first div a{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 50px;
+    width: 200px;
+    color: black;
+    transition: 1s;
+}
+.first div a:hover{
+    background-color: rgb(255, 136, 0);
+}
+.second-x{
+    width: 100%;
+    height: 250px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.second nav{
+    width: 600px;
+    background-color: rgb(243, 242, 242);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+.second nav:hover{
+    transform: scale(1.1);
+}
+.second-x nav img{
+    height: 150px;
+    width: 120px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.second-x nav h5{
+    color: rgb(255, 136, 0);
+}
+.boot{
+    position: absolute;
+    top: 230px;
+}
+.second-x nav small{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.second-x nav small p{
+    color: rgb(255, 136, 0);
+}
+.third{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-y: hidden;
+}
+.slider{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    animation: sliding;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    position: absolute;
+}
+.slider span{
+    height: 300px;
+}
+.one{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(./images/dreamjob\ banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background: linear-gradient(rgba(102, 101, 101, 0.5));
+}
+.dream-job{
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+.one b{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    padding-right: 100px;
+}
+.one a{
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: 1s;
+    margin-right: 100px;
+}
+.one a:hover{
+    background-color: rgb(255, 136, 0);
+}
+.two{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 113, 18);
+}
+.two img{
+    height:150px ;
+    width: 150px;
+    border: 3px solid white;
+    object-fit: cover;
+}
+.two article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.two p{
+    color: white;
+}
+.two b{
+    font-size: 30px;
+    color: white;
+}
+.two a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 15%;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+    gap: 30px;
+    padding: 0px 20px;
+}
+.fourth nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    height: 550px;
+    cursor: pointer;
+}
+.digital{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    gap: 40px;
+}
+.digital-x{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   transition: 1s;
+   background-color:rgb(243, 242, 242);
+}
+.digital-x:hover{
+    transform: scale(1.1);
+}
+.digital-x img{
+    width:200px ;
+    height:150px;
+    object-fit: contain;
+    object-position: center center;
+}
+.digital-x b{
+    font-size: 15px;
+}
+
+form{
+    width: 100%;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    background-color: rgb(243, 242, 242);
+    padding: 5px 10px;
+    position: relative;
+}
+form b{
+    color: rgb(255, 136, 0);
+    font-weight: 400;
+}
+form h3{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+}
+form h3>input{
+    display: flex;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+form >input{
+    width: 100%;
+    height: 90px;
+    outline: none;
+    padding: 0px 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form >input::placeholder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form button{
+    padding: 5px 15px;
+    background-color: rgb(255, 136, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 80%;
+}
+.fourth div{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 242, 242);
+    gap: 20px;
+}
+.fourth div p{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.fourth .a{
+    font-weight: 300;
+}
+.fourth .b{
+    color: rgb(255, 136, 0);
+}
+
+.fourth div img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.fourth div a{
+    color: black;
+    padding: 3px 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.fourth div a:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+.fifth{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    gap: 30px;
+    padding: 0px 20px;
+}
+
+.comment{
+    padding: 30px 30px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    max-height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.comment>b{
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.comment-x{
+    width: 100%;
+    gap: 15px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.img-x{
+    width: 100px;
+    height: 90px;
+    display: flex;
+    align-items: flex-start;
+    object-fit: cover;
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.people b{
+    color: rgb(255, 136, 0);
+}
+
+.people p{
+    padding: 20px;
+    background-color: rgb(243, 242, 242);
+}
+
+.people h5{
+    display: flex;
+    gap: 100px;
+}
+
+.fifth nav{
+    width:40% ;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.fifth nav p{
+    padding: 0px 10px;
+    height: 200px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background-image: url(./images/banner3.jpg);
+}
+.links h1,b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.link-slider{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-y: hidden;
+}
+.links{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    animation: sliding-2;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    position: absolute;
+    cursor: pointer;
+}
+.links h1{
+    height: 150px;
+    background-color: rgb(255, 136, 0);
+    color: black;
+}
+.link-1{
+    background-image: url(./images/learn.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.link-2{
+    background-image: url(./images/remotejobs.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.link-3{
+    background-image: url(./images/tourism.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.link-4{
+    background-image: url(./images/real\ estate.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.sixth{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-y: hidden;
+}
+.slider-2{
+    cursor: pointer;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    animation: sliding;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    position: absolute;
+}
+
+.career-1{
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   background-image: url(./images/photography.jpg);
+   background: linear-gradient(rgba(58, 57, 57, 0.5));
+   background-size: cover;
+   background-position: center;
+}
+.career-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(./images/techcareer.jpg);
+    background-size: cover;
+}
+.last{
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    background-image: url(./images/brickbanner.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    background-size: cover;
+}
+.last h5{
+    color: white;
+    font-size: 20px;
+}
+.last span{
+    display: flex;
+    flex-direction: row;
+}
+
+.last input{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+}
+.last input:focus{
+    border: 1px solid rgb(255, 113, 18);
+}
+.last input::placeholder{
+    color: white;
+}
+.last button{
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+    border: 1px solid rgb(255, 136, 0);
+    color: white;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    padding: 10px 40px;
+    justify-content: space-between;
+    background-color: rgb(243, 242, 242);
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* keyframes for animations */
+@keyframes sliding{
+    0%{
+        top: 0px;
+    }
+    50%{
+       top: -300px;
+    }
+
+}
+@keyframes sliding-2{
+    0%{
+        top: 0px;
+    }
+    25%{
+        top: -150px;
+    }
+    50%{
+        top: -300px;
+    }
+    75%{
+        top: -450px;
+    }
+    100%{
+        top:-600px ;
+    }
+}

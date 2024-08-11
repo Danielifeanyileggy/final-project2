@@ -1,0 +1,264 @@
+@media(max-width:450px){
+    body{
+        padding: 0px 5px;
+    }
+    .head b{
+        font-size: 20px;
+    }
+    .head nav{
+        padding: 0px 10px;
+    }
+    .head nav a{
+        font-size: 8px;
+    }
+    body{
+        height: fit-content;
+        width: 100%;
+        background-color: rgb(214, 213, 213);
+    }
+    .first{
+        height: 200px;
+    }
+    .first nav{
+        width: 65%;
+        gap: 10px;
+    }
+    .first nav p{
+        font-size: 20px;
+    }
+    .first nav img{
+        width: 70px;
+        height: 60px;
+        object-fit: contain;
+    }
+    .first div{
+        width:35% ;
+        height: 100%;
+        gap: 10px;
+    }
+    .first div img{
+        width: 70px;
+    }
+    .first div b{
+        letter-spacing: 0px;
+        font-size: 13px;
+    }
+    .first div small{
+        font-size: 15px;
+    }
+    .first div a{
+        padding: 2px;
+        font-size: 12px;
+        font-weight: 300;
+        width: 100px;
+    }
+    .second-x{
+        width: 100%;
+        height: 150px;
+        padding: 0px 10px;
+        gap: 10px;
+    }
+    .second nav{
+        width: 600px;
+        background-color: rgb(243, 242, 242);
+        gap: 10px;
+    }
+    .second-x nav img{
+        height: 80px;
+        width: 70px;
+    }
+    .second nav h5{
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .boot{
+        top: 130px;
+    }
+    .second-x nav small{
+        margin-top: 10px;
+    }
+    .second-x nav small p{
+        color: rgb(255, 136, 0);
+        font-size: 7px;
+    }
+    .second-x nav small b{
+        font-size: 9px;
+    }
+    .dream-job{
+        margin-top: 200px;
+        gap: 10px;
+    }
+    .one b{
+        font-size: 25px;
+        padding-right: 10px;
+    }
+    .one a{
+        padding: 5px 20px;
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .two img{
+        height:100px ;
+        width: 100px;
+        margin-left: 0px;
+    }
+    .two article{
+        margin-top: 0px;
+    }
+    .two b{
+        font-size: 16px;
+    }
+    .two p{
+        font-size: 6px;
+    }
+    .two a{
+        font-size: 10px;
+        width: 30%;
+        padding: 2px 0px;
+    }
+
+    .fourth{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        gap: 0px;
+    }
+    .fourth nav{
+        width: 100%;
+    }
+    .digital{
+        width: 100%;
+        gap: 10px;
+        height: 150px;
+    }
+    .digital-x{
+       width: 100%;
+    }
+    .digital-x img{
+        width:100px ;
+        height:60px;
+    }
+    .digital-x b{
+        font-size: 8px;
+    }
+    form button{
+        left: 75%;
+    }
+
+    .fourth div{
+        width: 100%;
+        height: fit-content;
+        gap: 10px;
+    }
+    .fourth div img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .fourth div a{
+       font-size: 10px;
+       margin-bottom: 20px;
+    }
+    .comment{
+        padding: 10px 10px;
+        width:60%;
+        gap: 5px;
+        max-height: 200px;
+    }
+    .comment>b{
+        color: black;
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .posts{
+        gap: 10px;
+    }
+    .comment-x{
+        width: 100%;
+        gap: 15px;
+        height: 150px;
+        padding: 5px;
+        background-color: white;
+        border: 1px solid black;
+    }
+    
+    .img-x{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .people{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top:0px;
+    }
+    .people b{
+        color: rgb(255, 136, 0);
+        font-size: 5px;
+    }
+    
+    .people p{
+        padding: 10px;
+        font-size: 5px;
+        background-color: rgb(243, 242, 242);
+    }
+    
+    .people h5{
+        display: flex;
+        gap: 12px;
+        width: 5px;
+        height: 15px;
+        object-fit: contain;
+    }
+    
+    .fifth nav p{
+        padding: 0px;
+        height: 100px;
+        font-size: 10px;
+    } 
+    .last{
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        gap: 50px;
+    }
+    .last h5{
+        color: white;
+        font-size: 9px;
+    }
+    .last span{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .last input{
+        width: 100px;
+        padding: 5px 10px;
+    }
+    .last button{
+        padding: 5px;
+        width: 60px;
+        font-size: 9px;
+    }
+    footer{
+        padding: 0px 5px;
+        gap: 100px;
+        justify-content:flex-start;
+        align-items: center;
+        height: 25px;
+    }
+    footer div{
+        gap: 10px;
+        width: 12px;
+        height: 12px;
+        object-fit: cover;
+    }
+    footer p{
+        font-size: 6px;
+    }
+    
+
+
+    
+}
